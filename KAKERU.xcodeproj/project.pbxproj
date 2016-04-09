@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D9B43D1BA1C88D00A615E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D9B43C1BA1C88D00A615E1 /* AppDelegate.swift */; };
+		11D9B43F1BA1C88D00A615E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D9B43E1BA1C88D00A615E1 /* ViewController.swift */; };
+		11D9B4421BA1C88D00A615E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D9B4401BA1C88D00A615E1 /* Main.storyboard */; };
+		11D9B4441BA1C88D00A615E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D9B4431BA1C88D00A615E1 /* Assets.xcassets */; };
+		11D9B4471BA1C88D00A615E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D9B4451BA1C88D00A615E1 /* LaunchScreen.storyboard */; };
+		11D9B4521BA1C88D00A615E1 /* KAKERUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D9B4511BA1C88D00A615E1 /* KAKERUTests.swift */; };
+		11D9B45D1BA1C88E00A615E1 /* KAKERUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D9B45C1BA1C88E00A615E1 /* KAKERUUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11D9B44E1BA1C88D00A615E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D9B4311BA1C88D00A615E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D9B4381BA1C88D00A615E1;
+			remoteInfo = KAKERU;
+		};
+		11D9B4591BA1C88E00A615E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D9B4311BA1C88D00A615E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D9B4381BA1C88D00A615E1;
+			remoteInfo = KAKERU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D9B4391BA1C88D00A615E1 /* KAKERU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAKERU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D9B43C1BA1C88D00A615E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11D9B43E1BA1C88D00A615E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11D9B4411BA1C88D00A615E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11D9B4431BA1C88D00A615E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11D9B4461BA1C88D00A615E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11D9B4481BA1C88D00A615E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D9B44D1BA1C88D00A615E1 /* KAKERUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAKERUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D9B4511BA1C88D00A615E1 /* KAKERUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAKERUTests.swift; sourceTree = "<group>"; };
+		11D9B4531BA1C88D00A615E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D9B4581BA1C88E00A615E1 /* KAKERUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAKERUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D9B45C1BA1C88E00A615E1 /* KAKERUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAKERUUITests.swift; sourceTree = "<group>"; };
+		11D9B45E1BA1C88E00A615E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D9B4361BA1C88D00A615E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D9B44A1BA1C88D00A615E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D9B4551BA1C88D00A615E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D9B4301BA1C88D00A615E1 = {
+			isa = PBXGroup;
+			children = (
+				11D9B43B1BA1C88D00A615E1 /* KAKERU */,
+				11D9B4501BA1C88D00A615E1 /* KAKERUTests */,
+				11D9B45B1BA1C88E00A615E1 /* KAKERUUITests */,
+				11D9B43A1BA1C88D00A615E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11D9B43A1BA1C88D00A615E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D9B4391BA1C88D00A615E1 /* KAKERU.app */,
+				11D9B44D1BA1C88D00A615E1 /* KAKERUTests.xctest */,
+				11D9B4581BA1C88E00A615E1 /* KAKERUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D9B43B1BA1C88D00A615E1 /* KAKERU */ = {
+			isa = PBXGroup;
+			children = (
+				11D9B43C1BA1C88D00A615E1 /* AppDelegate.swift */,
+				11D9B43E1BA1C88D00A615E1 /* ViewController.swift */,
+				11D9B4401BA1C88D00A615E1 /* Main.storyboard */,
+				11D9B4431BA1C88D00A615E1 /* Assets.xcassets */,
+				11D9B4451BA1C88D00A615E1 /* LaunchScreen.storyboard */,
+				11D9B4481BA1C88D00A615E1 /* Info.plist */,
+			);
+			path = KAKERU;
+			sourceTree = "<group>";
+		};
+		11D9B4501BA1C88D00A615E1 /* KAKERUTests */ = {
+			isa = PBXGroup;
+			children = (
+				11D9B4511BA1C88D00A615E1 /* KAKERUTests.swift */,
+				11D9B4531BA1C88D00A615E1 /* Info.plist */,
+			);
+			path = KAKERUTests;
+			sourceTree = "<group>";
+		};
+		11D9B45B1BA1C88E00A615E1 /* KAKERUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11D9B45C1BA1C88E00A615E1 /* KAKERUUITests.swift */,
+				11D9B45E1BA1C88E00A615E1 /* Info.plist */,
+			);
+			path = KAKERUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D9B4381BA1C88D00A615E1 /* KAKERU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D9B4611BA1C88E00A615E1 /* Build configuration list for PBXNativeTarget "KAKERU" */;
+			buildPhases = (
+				11D9B4351BA1C88D00A615E1 /* Sources */,
+				11D9B4361BA1C88D00A615E1 /* Frameworks */,
+				11D9B4371BA1C88D00A615E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAKERU;
+			productName = KAKERU;
+			productReference = 11D9B4391BA1C88D00A615E1 /* KAKERU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11D9B44C1BA1C88D00A615E1 /* KAKERUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D9B4641BA1C88E00A615E1 /* Build configuration list for PBXNativeTarget "KAKERUTests" */;
+			buildPhases = (
+				11D9B4491BA1C88D00A615E1 /* Sources */,
+				11D9B44A1BA1C88D00A615E1 /* Frameworks */,
+				11D9B44B1BA1C88D00A615E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D9B44F1BA1C88D00A615E1 /* PBXTargetDependency */,
+			);
+			name = KAKERUTests;
+			productName = KAKERUTests;
+			productReference = 11D9B44D1BA1C88D00A615E1 /* KAKERUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11D9B4571BA1C88D00A615E1 /* KAKERUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D9B4671BA1C88E00A615E1 /* Build configuration list for PBXNativeTarget "KAKERUUITests" */;
+			buildPhases = (
+				11D9B4541BA1C88D00A615E1 /* Sources */,
+				11D9B4551BA1C88D00A615E1 /* Frameworks */,
+				11D9B4561BA1C88D00A615E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D9B45A1BA1C88E00A615E1 /* PBXTargetDependency */,
+			);
+			name = KAKERUUITests;
+			productName = KAKERUUITests;
+			productReference = 11D9B4581BA1C88E00A615E1 /* KAKERUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D9B4311BA1C88D00A615E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ArturoCobos;
+				TargetAttributes = {
+					11D9B4381BA1C88D00A615E1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					11D9B44C1BA1C88D00A615E1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 11D9B4381BA1C88D00A615E1;
+					};
+					11D9B4571BA1C88D00A615E1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 11D9B4381BA1C88D00A615E1;
+					};
+				};
+			};
+			buildConfigurationList = 11D9B4341BA1C88D00A615E1 /* Build configuration list for PBXProject "KAKERU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11D9B4301BA1C88D00A615E1;
+			productRefGroup = 11D9B43A1BA1C88D00A615E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D9B4381BA1C88D00A615E1 /* KAKERU */,
+				11D9B44C1BA1C88D00A615E1 /* KAKERUTests */,
+				11D9B4571BA1C88D00A615E1 /* KAKERUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D9B4371BA1C88D00A615E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9B4471BA1C88D00A615E1 /* LaunchScreen.storyboard in Resources */,
+				11D9B4441BA1C88D00A615E1 /* Assets.xcassets in Resources */,
+				11D9B4421BA1C88D00A615E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D9B44B1BA1C88D00A615E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D9B4561BA1C88D00A615E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D9B4351BA1C88D00A615E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9B43F1BA1C88D00A615E1 /* ViewController.swift in Sources */,
+				11D9B43D1BA1C88D00A615E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D9B4491BA1C88D00A615E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9B4521BA1C88D00A615E1 /* KAKERUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D9B4541BA1C88D00A615E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9B45D1BA1C88E00A615E1 /* KAKERUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11D9B44F1BA1C88D00A615E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D9B4381BA1C88D00A615E1 /* KAKERU */;
+			targetProxy = 11D9B44E1BA1C88D00A615E1 /* PBXContainerItemProxy */;
+		};
+		11D9B45A1BA1C88E00A615E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D9B4381BA1C88D00A615E1 /* KAKERU */;
+			targetProxy = 11D9B4591BA1C88E00A615E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11D9B4401BA1C88D00A615E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D9B4411BA1C88D00A615E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11D9B4451BA1C88D00A615E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D9B4461BA1C88D00A615E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D9B45F1BA1C88E00A615E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11D9B4601BA1C88E00A615E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D9B4621BA1C88E00A615E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KAKERU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boss.KAKERU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11D9B4631BA1C88E00A615E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KAKERU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boss.KAKERU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11D9B4651BA1C88E00A615E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KAKERUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boss.KAKERUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAKERU.app/KAKERU";
+			};
+			name = Debug;
+		};
+		11D9B4661BA1C88E00A615E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KAKERUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boss.KAKERUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAKERU.app/KAKERU";
+			};
+			name = Release;
+		};
+		11D9B4681BA1C88E00A615E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KAKERUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boss.KAKERUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KAKERU;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		11D9B4691BA1C88E00A615E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KAKERUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boss.KAKERUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KAKERU;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D9B4341BA1C88D00A615E1 /* Build configuration list for PBXProject "KAKERU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9B45F1BA1C88E00A615E1 /* Debug */,
+				11D9B4601BA1C88E00A615E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D9B4611BA1C88E00A615E1 /* Build configuration list for PBXNativeTarget "KAKERU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9B4621BA1C88E00A615E1 /* Debug */,
+				11D9B4631BA1C88E00A615E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D9B4641BA1C88E00A615E1 /* Build configuration list for PBXNativeTarget "KAKERUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9B4651BA1C88E00A615E1 /* Debug */,
+				11D9B4661BA1C88E00A615E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D9B4671BA1C88E00A615E1 /* Build configuration list for PBXNativeTarget "KAKERUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9B4681BA1C88E00A615E1 /* Debug */,
+				11D9B4691BA1C88E00A615E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11D9B4311BA1C88D00A615E1 /* Project object */;
+}
